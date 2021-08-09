@@ -21,8 +21,8 @@ env:
   WEB_APP_NAME: stephans-gitacc-app-sample         # set the name for the Web App on Azure
   CONTAINER_IMAGE_NAME: app-todo-sample # set the name for the container image
   SQL_CONNECTION_STRING: ${{ secrets.SQL_CONNECTION_STRING }}  # connection string for the Azure SQL database -> must be in the secrets
-  ACR_NAME: stephans-acrsample               # set the name for the Azure Container Registry
-  ACR_LOGIN_SERVER: acrtodosample.azurecr.io # fqdn for the Azure Container Registry
+  ACR_NAME: stephansacrsample               # set the name for the Azure Container Registry
+  ACR_LOGIN_SERVER: stephansacrsample.azurecr.io # fqdn for the Azure Container Registry
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }} # user name for accessing Azure Container Registry
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }} # password for accesing the Azure Container Registry
 
