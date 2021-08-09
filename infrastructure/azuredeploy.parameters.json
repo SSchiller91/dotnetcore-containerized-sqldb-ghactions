@@ -3,19 +3,19 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "webAppName": {
-      "value": "app-todo-sample"
+      "value": "stephans-githubactions-sample-app"
     },
     "containerRegistryName": {
-      "value": "acrtodosample"
+      "value": "acrgitacsample"
     },
     "sqlServerName": {
-      "value": "sql-todo-sample"
+      "value": "sql-gitacsample"
     },
     "dbAdminLogin": {
       "value": "dbusradm"
     },
     "dbName": {
-      "value": "sqldb-todo"
+      "value": "sqldb-gitacsample"
     }
   }
 }
